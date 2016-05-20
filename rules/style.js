@@ -59,10 +59,7 @@ module.exports = {
         'linebreak-style': [2, 'unix'],
         // specify the maximum length of a line in your program
         // http://eslint.org/docs/rules/max-len
-        'max-len': [2, 120, 4, {
-            'ignoreUrls': true,
-            'ignoreComments': false
-        }],
+        'max-len': 0,
         // specify the maximum depth callbacks can be nested
         'max-nested-callbacks': 0,
         // restrict the number of statements per line

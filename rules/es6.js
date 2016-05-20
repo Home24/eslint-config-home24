@@ -74,7 +74,7 @@ module.exports = {
             'allowUnboundThis': true,
         }],
         // suggest using of const declaration for variables that are never modified after declared
-        'prefer-const': 1,
+        'prefer-const': [2, { 'ignoreReadBeforeAssign': true }],
         // suggest using the spread operator instead of .apply()
         'prefer-spread': 0,
         // suggest using Reflect methods where applicable
