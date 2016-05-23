@@ -170,7 +170,7 @@ module.exports = {
         'vars-on-top': 1,
         // require immediate function invocation to be wrapped in parentheses
         // http://eslint.org/docs/rules/wrap-iife.html
-        'wrap-iife': [2, 'outside'],
+        'wrap-iife': [2, 'inside'],
         // require or disallow Yoda conditions
         'yoda': 2
     }
