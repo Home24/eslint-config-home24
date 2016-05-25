@@ -7,6 +7,7 @@ module.exports = {
         'jsx': true
     },
     'rules': {
+
         // Require ARIA roles to be valid and non-abstract
         // https://github.com/evcohen/eslint-plugin-jsx-a11y/blob/master/docs/rules/aria-role.md
         'jsx-a11y/aria-role': 2,
